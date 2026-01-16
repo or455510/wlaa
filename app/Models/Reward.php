@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Reward extends Model
+{
+    // protected $fillable = ['title','description','points_required','image_url'];
+
+    protected $fillable = [
+        'title',
+        'description',
+        'points_required',
+        'image_url',
+    ];
+}
